@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  div.topimgtxt {
+    /*background-color: lightgrey;*/
+    padding: 20px;
+  }
+
+  @media screen and (min-width: 601px) {
+    div.topimgtxt {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.topimgtxt {
+      font-size: 5px;
+    }
+  }
+
+
+  .topimgtxt {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .mySlides {display:none;}
+
+  </style>
+  
+  <title>BI Summer School 2024</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+<video id="video-background" autoplay loop muted width="100%">
+    <source src="video/biss2024-2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>BI</b> Summer School 2024</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#themes" class="w3-bar-item w3-button">Themes</a>
+      <a href="#speakers" class="w3-bar-item w3-button">Speakers</a>
+      <a href="#registration" class="w3-bar-item w3-button">Registration</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#schedule" class="w3-bar-item w3-button">Schedule</a>
+      <a href="#resources" class="w3-bar-item w3-button">Resources</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Themes Section -->
+  <div class="w3-container w3-padding-32" id="themes">
+    <center><h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">Themes</h1></center>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l4 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+          <img src="images/mind.jpg" alt="MMA" style="width:100%">
+        <p style="text-align:center">Mind & Consciousness Research</p>
+      </div>
+    </div>
+    <div class="w3-col l4 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+          <img src="images/chandelier.jpg" alt="Jet Physics" style="width:100%">
+        <p style="text-align:center">Vedic Cosmology & Museum of Vedic Planetarium</p>
+      </div>
+    </div>
+    <div class="w3-col l4 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="images/shastra.jpg" alt="Pulsars" style="width:100%">
+        <p style="text-align:center">Shastra, Hermeneutics & Philosophy of Science</p>
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding">    <div class="w3-col l4 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="images/hkmm.jpg" alt="Pulsars" style="width:100%">
+        <p style="text-align:center">Mantra Meditation Research</p>
+      </div>
+    </div>
+    <div class="w3-col l4 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="images/archeology.jpg" alt="Pulsars" style="width:100%">
+        <p style="text-align:center">Vedic Archeology</p>
+      </div>
+    </div>
+    <div class="w3-col l4 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="images/networking.jpg" alt="Pulsars" style="width:100%">
+        <p style="text-align:center">Education, Outreach & Networking</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Speakers Section -->
+  <div class="w3-container w3-padding-32" id="speakers">
+    <center><h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">Speakers</h1></center>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l2 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+          <img src="http://bihstudies.org/wp-content/uploads/2022/03/Brahmatirtha.png" alt="MMA" style="width:100%">
+        <p style="text-align:center">Bob Cohen</p>
+      </div>
+    </div>
+    <div class="w3-col l2 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+          <img src="http://bihstudies.org/wp-content/uploads/2020/04/BIHS-Staff_04-AkandadhiDas.png" alt="Jet Physics" style="width:100%">
+        <p style="text-align:center">Akhandadhi Das</p>
+      </div>
+    </div>
+    <div class="w3-col l2 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="http://bihstudies.org/wp-content/uploads/2020/05/Advisory_Howard-Resnick.png" alt="Pulsars" style="width:100%">
+        <p style="text-align:center">Howard Resnick</p>
+      </div>
+    </div>
+    <div class="w3-col l2 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="http://bihstudies.org/wp-content/uploads/2020/05/Advisory_MichaelCremo.png" alt="Pulsars" style="width:100%">
+        <p style="text-align:center">Michael Cremo</p>
+      </div>
+    </div>
+    <div class="w3-col l2 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="http://bihstudies.org/wp-content/uploads/2020/06/BIHS-Staff-New_BVGoswami-300x300.png" alt="Pulsars" style="width:100%">
+        <p style="text-align:center">Bhakti Vijnana Swami</p>
+      </div>
+    </div>
+    <div class="w3-col l2 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="http://bihstudies.org/wp-content/uploads/2020/05/Advisory_KKSwami.png" alt="Pulsars" style="width:100%">
+        <p style="text-align:center">Krishna Kshetra Seami</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Registration Section -->
+
+  <div class="w3-container w3-padding-32" id="registration">
+    <center><h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">Registration</h1></center>
+  </div>
+   <center>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPMsQ7QTs-6eazB5LAQZxuyNme4zakmvhIzrT-akX7QgevSg/viewform?embedded=true" width="740" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+   </center>
+
+  <!-- Schedule Section -->
+
+  <div class="w3-container w3-padding-32" id="schedule">
+    <center><h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">Schedule</h1></center>
+  </div>
+  
+<pre>
+<b>Saturday, 13th July 2024	The Science of CONSCIOUSNESS</b>
+Overview of the BI in today's ISKCON: Projects, network and resources - (Bob Cohen and Prishni Sutton)
+Why Consciousness is a Big Deal For Science (Akhandadhi)
+Indian Knowledge Systems and Mental Health Applications at IIT Mandi (Laxmidhar Behera)
+Research on Near Death Experiences and Mahamantra (Komal Dalal and Vijay Gawandi)
+Reserach on Extraordinary Perceptual Abilities (Prem Kishor Das and Jyotiranjan Beuria)
+
+<b>Sunday, 14th July 2024 	Philosophy of Science</b>
+The map is not the territory (Krishna Kshetra Swami) 
+Shastra and Hermeneutics (Howard Resnick)
+TBD (Radhika Raman Das)
+The Science Museum of the Vedic Planetarium (Drutakarma Das)
+
+<b>Saturday, 20th July 2024	Research in LIFE SCIENCES</b>
+Reincarnation & subtle body research (Kumudhvana Vrajesa and Nitika Parmar)
+Consciousness-based life and speciation (Akhandadhi Das)
+Research project: Health benefits of chanting mahamantra (Venugopal Damerla)
+Opportunities and getting involved with BI programs (Kunal Mooley)
+TBD (Murli Gopal Das)
+Vedi Archeology (Drutakarma Das)
+
+<b>Sunday, 21st July 2024	COSMOLOGY</b>
+Resolving the Siddhantic and Puranic universes (Sthitadhi Muni)
+A Conscious-based Universe (Giridhari Das)
+Cosmogenesis (Doug Watson & Laura)
+ToVP Chandelier (Prem Gauranga & Pavanesvara)
+The BI in Russia (Bhakti Vijnana Maharaj and Nari)
+The BI Network and Resources - how to get involved (Bob Cohen & Ramananda Das) 
+
+</pre>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <center><h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h1></center>
+
+<p> The Bhaktivedanta Institute (BI) was formed in 1976 to build intellectual bridges and create joint research paths between modern empirical science and the consciousness-based metaphysical framework of India’s Bhagavata Vedanta tradition. Over the last four decades, we have steadily built science- and philosophy-based research, education and outreach programs to investigate a wide gamut of topics encompassing mind, consciousness and Vedic cosmology. The Bhaktivedanta Institute for Higher Studies (BIHS) is a recently-formulated center in Gainesville, Florida. We strongly believe that philosophy is integral to science, and that a much more holistic view of reality.
+</p>
+<center>
+<img class="w3-image" src="https://bi-neuro.github.io/img/bi_team.png" alt="Part of the BI-Neuro Team at the December 2021 MBI Conference" width="auto">
+<br><br>In-person participants at the Mind-Brain Interface conference, held at the BI House in Gainesville, FL, in December 2021
+</center>
+   </div>
+
+    <!-- Resources Section -->
+    <div class="w3-container w3-padding-32" id="resources">
+      <center><h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">Resources</h1></center>
+    </div>
+
+    <div class="w3-row-padding w3-grayscale w3-center">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="https://bihstudies.org/">
+        <img src="https://bi-neuro.github.io/img/bihs.png" alt="BIHS" style="max-width: 45%; max-height: 45%; display:block; margin:auto;">
+        <h3>Bhaktivedanta Institute for Higher Studies</h3>
+       </a>
+        <p>
+      </div>
+
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="https://s-pi.org">
+        <img src="https://bi-neuro.github.io/img/s-pi.png" alt="SPi" style="max-width: 47%; max-height: 47%; display:block; margin:auto;">
+        <h3>Science and Philosophy Initiative</h3>
+        </a>
+      </div>
+
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="https://issdelhi.org">
+        <img src="images/iss.jpg" alt="ISS" style="max-width: 47%; max-height: 47%; display:block; margin:auto;">
+        <h3>Institute of Science and Spirituality</h3>
+        </a>
+      </div>
+
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="http://prabhupada-research-institute.webflow.io/">
+        <img src="https://bi-neuro.github.io/img/priime.png" alt="PRIIME" style="max-width: 45.7%; max-height: 45.7%; display:block; margin:auto;">
+        <h3>Prabhupada Research Institute for Integrative Medicine</h3>
+        </a>
+      </div>
+
+      
+    </div>
+
+    <!-- Contact & Support -->
+    <div class="w3-container w3-padding-32" id="contact">
+      <center><h1 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact & Support</h1></center>
+      <p>Email info@bihstudies.org for questions on the summer school. The summer school is absolutely free for everyone to participate. However, if you wish to donate anything, which will help offset some of our organizational costs, you can do so using the Donorbox interface below. Suggested donation is $25. We will also be most grateful if consider monthly donations to the BIHS. These donations can further our mission and allow us to engage devotee scholars from around the world, produce literature and books, and organize workshops/conferences. All US-based donations are tax exempt.
+      </p>
+    </div>
+
+<center>
+<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/donate-to-the-bhaktivedanta-institute-for-higher-studies" width="100%" style="max-width:500px; min-width:310px;" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
+</center>
+
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
+
